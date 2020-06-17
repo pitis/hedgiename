@@ -2,6 +2,8 @@ const names = new Array(
   'Koko',
   'Poki',
   'Zippie',
+  'Willow',
+  'Gnash',
   'Lisa',
   'Reno',
   'Stewie',
@@ -26,7 +28,11 @@ const names = new Array(
   'Diesel',
   'Dash',
   'Choco',
-  'Orchid'
+  'Orchid',
+  'Quill.i.am',
+  'Dora',
+  'Quillie Eilish',
+  'Peach'
 )
 
 const name = document.querySelector('.name')
