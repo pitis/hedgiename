@@ -1,3 +1,17 @@
+const firebaseConfig = {
+  apiKey: 'AIzaSyCUKR7Kc8Zi9yGbPNy5QSaOfqfsQk2_qc8',
+  authDomain: 'hedgiename.firebaseapp.com',
+  databaseURL: 'https://hedgiename.firebaseio.com',
+  projectId: 'hedgiename',
+  storageBucket: 'hedgiename.appspot.com',
+  messagingSenderId: '182519469709',
+  appId: '1:182519469709:web:a441dbefaf647c673db4c4',
+  measurementId: 'G-M4FFX2XMGC',
+}
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig)
+firebase.analytics()
+
 const names = new Array(
   'Koko',
   'Poki',
