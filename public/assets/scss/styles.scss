@@ -41,6 +41,7 @@ body {
 
   @media (max-width: 768px) {
     font-size: 48px;
+    text-align: center;
   }
 }
 
@@ -57,23 +58,27 @@ body {
   letter-spacing: 0.1em;
   padding: 0.5em;
   cursor: pointer;
+  outline: none;
+  transition: all 300ms;
 }
 
 .btn-copy {
   border-color: #999;
   color: #999;
   font-size: 12px;
+  &:hover {
+    background-color: #999;
+    color: white;
+  }
 }
 
 .btn-random {
   background-color: #f00;
   color: #fff;
   font-size: 18px;
-  transition: all 300ms;
-}
-
-.btn-random:hover {
-  background-color: #ce0000;
+  &:hover {
+    background-color: #ce0000;
+  }
 }
 
 .btn-randomize-namepart {
